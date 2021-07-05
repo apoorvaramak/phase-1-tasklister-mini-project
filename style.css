@@ -10,8 +10,16 @@ body {
   background: linear-gradient(pink, violet);
 }
 
-button {
+/* button {
   font-size: 7px;
+}
+
+#btn {
+  font-size: 7px; 
+} */
+
+option[value=""][disabled] {
+  display: none;
 }
 
 #main-content {
